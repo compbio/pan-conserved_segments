@@ -12,3 +12,5 @@ Pan-conserved tag segments provided an informative set of universally conserved 
 
 # k-mer SV plots
 We identified 60,763 polymorphic invervals and use the constituent 31-mers of SVs to visualize the structure of different classes of SVs including insertions, deletions, duplications, inversion and more complex rearrangements. This process involved using a simple dot matrix plot with the two axis representing the GRCh38 and the specific haploid assembly. We plotted the position of the 31-mers that spanned the divergent interval.
+
+![sv HG00438 maternal ins merged](https://user-images.githubusercontent.com/1683615/208241221-205d89d5-024f-480b-8785-84beeda29321.png)
