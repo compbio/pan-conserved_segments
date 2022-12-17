@@ -1,1 +1,13 @@
 
+Run the following command:
+for file in *merged.txt; do ../make_kmer_plot_query.R $file; done
+
+This command will generate image files (png format) for all *merged.txt in the directory.
+Structural variants (SVs) will be shown in image files.
+
+*merged.txt contains the coordinates of k-mers involving SVs for two assemblies; 
+(1) reference assembly (GRCh38 in this example) or baseline assembly
+(2) assembly of your interst
+
+
+
