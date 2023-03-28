@@ -15,7 +15,7 @@ All pan-conserved 31-mers can be downloaded in bed format from https://dna-disco
 Here is the list of available files:
 - polymorphic_intervals.50.grch38.bed
 ![image](https://user-images.githubusercontent.com/1683615/228389198-e82399ba-9552-4e87-9f9f-e8935674b79f.png)
-
+There are 13 columns in this file (see headers). 
 - large_consecutive.2500.bed
 - the coordinates of PSTs across HPRC assemblies by chromosomes: chr*.pst.hprc.bed
 - Pan-conserved 31-mers and their GRCh38 coordinates: pan-conserved_seq.grch38.zip
