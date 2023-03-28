@@ -12,6 +12,8 @@ Pan-conserved tag segments provided an informative set of universally conserved 
 
 
 All pan-conserved 31-mers can be downloaded in bed format from https://dna-discovery.stanford.edu/publicmaterial/datasets/pangenome
+<br/>
+<br/>
 Here is the list of available files:
 - polymorphic_intervals.50.grch38.bed: Each row represents an interval and 13 columns in this file (see the below image)
 ![image](https://user-images.githubusercontent.com/1683615/228391002-b8f1ae98-c425-43a5-a5f1-ebc39daf2e1b.png)
