@@ -29,4 +29,4 @@ for file in *merged.txt; do ../make_kmer_plot_query.R $file; done
 
 There are total of 6 input files for 6 different types of SVs (Figure 4 in our preprint: https://www.biorxiv.org/content/10.1101/2022.10.06.511239v2)
 
-<img src="https://user-images.githubusercontent.com/1683615/208243200-5f493287-e7ac-4376-b518-5eda620db112.png" width="500">
+<img src="https://user-images.githubusercontent.com/1683615/208243200-5f493287-e7ac-4376-b518-5eda620db112.png" width="750">
