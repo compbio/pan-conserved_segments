@@ -6,6 +6,14 @@ Pan-conserved 31-mers are unique in each assembly and present in all assemblies.
 ![image](https://user-images.githubusercontent.com/1683615/204896720-821558ef-0a61-4709-9be1-aded071eecac.png)
 
 All pan-conserved 31-mers can be downloaded in bed format from https://dna-discovery.stanford.edu/publicmaterial/datasets/pangenome
+Here is the list of available files:
+- polymorphic_intervals.50.grch38.bed
+- large_consecutive.2500.bed
+- the coordinates of PSTs across HPRC assemblies by chromosomes: chr*.pst.hprc.bed
+- Pan-conserved 31-mers and their GRCh38 coordinates: pan-conserved_seq.grch38.zip
+- Pan-conserved sequences and their CHM13 coordinates: pan-conserved_seq.chm13.zip
+- ll measured interval lengths between the selected pan-conserved sequences pairs: interval_length_matrix.zip
+
 
 Pan-conserved tag segments provided an informative set of universally conserved sequences.  Examining the intervals between pairs of these segments identified highly conserved segments of the genome versus ones that have structurally related polymorphisms. 
 ![image](https://user-images.githubusercontent.com/1683615/204897781-07b2f8a4-c299-4951-bbcb-d77aae614bd2.png)
