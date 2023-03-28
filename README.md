@@ -14,7 +14,7 @@ Pan-conserved tag segments provided an informative set of universally conserved 
 All pan-conserved 31-mers can be downloaded in bed format from https://dna-discovery.stanford.edu/publicmaterial/datasets/pangenome
 Here is the list of available files:
 - polymorphic_intervals.50.grch38.bed: There are 13 columns in this file (see headers in the below image)
-![image](https://user-images.githubusercontent.com/1683615/228389198-e82399ba-9552-4e87-9f9f-e8935674b79f.png)
+![image](https://user-images.githubusercontent.com/1683615/228390558-dd5a5ab0-f684-4c4d-bd1c-faa5feed9e2a.png)
 An interval (10052 bp) from 844891 to 854943 on chr1 on GRCh38 has the same lenght on 91 HPRC haploid assemblies. However, 3 of HPRC haploid assemblies have different interval lenghts; HG02080.paternal (345 bp shorter), HG02630.maternal (292 bp longer), HG03516.paternal (50 bp shoter) according to 12th and 13th column. 
 
 - large_consecutive.2500.bed
