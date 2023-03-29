@@ -21,7 +21,13 @@ An interval (10052 bp) from 844891 to 854943 on chr1 on GRCh38 has the same leng
 
 - long_psts.2500.bed
   * long psts with size of >2,500 bp. 4th column shows the length of psts.
-- the coordinates of PSTs across HPRC assemblies by chromosomes: chr*.pst.hprc.bed
+- the coordinates of PSTs across HPRC assemblies by chromosomes: chr*.pst.hprc.bed.gz (with tabix) under the directory of "pst_pos_hprc_by_chr"
+  * Provide the coordinates of PSTs on GRCh38 and 94 HPRC assemblies
+  * Use "tabix" to extract the PST within the genomic region of interest
+   * For retrieving exon4 of TP53 (chr17:7,661,779-7,676,594), use the following command
+    '''
+    tabix chr17.pst.hprc.bed.gz chr17:7,661,779-7,676,594
+    '''
 - Pan-conserved 31-mers and their GRCh38 coordinates:
   * pst-31mer.grch38.bed.gz
   * pst-31mer.grch38.bed.gz.tbi
