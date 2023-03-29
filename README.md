@@ -29,10 +29,11 @@ An interval (10052 bp) from 844891 to 854943 on chr1 on GRCh38 has the same leng
       tabix chr17.pst.hprc.bed.gz chr17:7,661,779-7,676,594
       ```
   * information of columns
-   | 1st col | chromosome on GRCh38 |
-   | 2nd col | start pos on GRCh38 |
-   | 3rd col | end pos on GRCh38 |
-   | 4th col | position on HG002.maternal |
+    * 1st col: chromosome on GRCh38
+    * 2 col:start pos on GRCh38
+    * 3rd col: end pos on GRCh38
+    * 4th col: position on HG002.maternal
+    * 5th col - 97th col: 
 - Pan-conserved 31-mers and their GRCh38 coordinates:
   * pst-31mer.grch38.bed.gz
   * pst-31mer.grch38.bed.gz.tbi
