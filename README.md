@@ -11,7 +11,7 @@ Pan-conserved tag segments provided an informative set of universally conserved 
 </p>
 
 
-All pan-conserved 31-mers can be downloaded in bed format, pan-conserved_seq.grch38.zip, from https://dna-discovery.stanford.edu/publicmaterial/datasets/pangenome
+All pan-conserved 31-mers can be downloaded in bed format, pst-31mer.grch38.bed.gz along with tbi index file, from https://dna-discovery.stanford.edu/publicmaterial/datasets/pangenome
 <br/>
 <br/>
 Here is the list of available files:
@@ -28,7 +28,7 @@ An interval (10052 bp) from 844891 to 854943 on chr1 on GRCh38 has the same leng
       ```
       tabix chr17.pst.hprc.bed.gz chr17:7,661,779-7,676,594
       ```
-  * information of columns
+  * information of 97 columns in chr*.pst.hprc.bed.gz: 
     * 1st col: chromosome on GRCh38
     * 2 col: start pos on GRCh38 (0-based)
     * 3rd col: end pos on GRCh38 (1-based)
