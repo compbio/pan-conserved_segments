@@ -22,8 +22,8 @@ An interval (10052 bp) from 844891 to 854943 on chr1 on GRCh38 has the same leng
 - large_consecutive.2500.bed
 - the coordinates of PSTs across HPRC assemblies by chromosomes: chr*.pst.hprc.bed
 - Pan-conserved 31-mers and their GRCh38 coordinates:
-* pan-conserved-31-mers.auto.grch38.bed.gz
-* pan-conserved-31-mers.auto.grch38.bed.gz.tbi
+  * pan-conserved-31-mers.auto.grch38.bed.gz
+  * pan-conserved-31-mers.auto.grch38.bed.gz.tbi
 - Pan-conserved sequences and their CHM13 coordinates: pan-conserved_seq.chm13.zip
 - ll measured interval lengths between the selected pan-conserved sequences pairs: interval_length_matrix.zip
 
