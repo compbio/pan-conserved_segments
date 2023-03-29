@@ -19,7 +19,8 @@ Here is the list of available files:
 ![image](https://user-images.githubusercontent.com/1683615/228391002-b8f1ae98-c425-43a5-a5f1-ebc39daf2e1b.png)
 An interval (10052 bp) from 844891 to 854943 on chr1 on GRCh38 has the same lenght on 91 HPRC haploid assemblies. However, 3 of HPRC haploid assemblies have different interval lenghts; HG02080.paternal (345 bp shorter), HG02630.maternal (292 bp longer), HG03516.paternal (50 bp shoter) according to 12th and 13th column. 
 
-- large_consecutive.2500.bed
+- long_psts.2500.bed
+  * long psts with size of >2,500 bp. 4th column shows the length of psts.
 - the coordinates of PSTs across HPRC assemblies by chromosomes: chr*.pst.hprc.bed
 - Pan-conserved 31-mers and their GRCh38 coordinates:
   * pst-31mer.grch38.bed.gz
