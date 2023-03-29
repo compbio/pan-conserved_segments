@@ -48,7 +48,9 @@ First,
 We identified 60,763 polymorphic invervals and use the constituent 31-mers of SVs to visualize the structure of different classes of SVs including insertions, deletions, duplications, inversion and more complex rearrangements. This process involved using a simple dot matrix plot with the two axis representing the GRCh38 and the specific haploid assembly. We plotted the position of the 31-mers that spanned the divergent interval.
 
 Move to the "test" directory and run the following command:
+```
 for file in *merged.txt; do ../make_kmer_plot_query.R $file; done
+```
 
 There are total of 6 input files for 6 different types of SVs (Figure 4 in our preprint: https://www.biorxiv.org/content/10.1101/2022.10.06.511239v2)
 
