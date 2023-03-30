@@ -30,12 +30,12 @@ An interval (10052 bp) from 844891 to 854943 on chr1 on GRCh38 has the same leng
       ```
       tabix chr17.pst.hprc.bed.gz chr17:7,661,779-7,676,594
       ```
- * information of 97 columns in chr*.pst.hprc.bed.gz: 
-    * 1st col: chromosome on GRCh38
-    * 2 col: start pos on GRCh38 (0-based)
-    * 3rd col: end pos on GRCh38 (1-based)
-    * 4th col: position on HG002.maternal (i.e. JAHKSD010000079.1:2844465-2844496,+ -> contig ID:start-end,strand)
-    * 5th col - 97th col: the order of HPRC assemblies is in README at https://dna-discovery.stanford.edu/publicmaterial/datasets/pangenome/
+    * information of 97 columns in chr*.pst.hprc.bed.gz: 
+       * 1st col: chromosome on GRCh38
+       * 2 col: start pos on GRCh38 (0-based)
+       * 3rd col: end pos on GRCh38 (1-based)
+       * 4th col: position on HG002.maternal (i.e. JAHKSD010000079.1:2844465-2844496,+ -> contig ID:start-end,strand)
+       * 5th col - 97th col: the order of HPRC assemblies is in README at https://dna-discovery.stanford.edu/publicmaterial/datasets/pangenome/
 - Pan-conserved 31-mers and their GRCh38 coordinates:
   * pst-31mer.grch38.bed.gz
   * pst-31mer.grch38.bed.gz.tbi
