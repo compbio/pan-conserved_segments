@@ -47,7 +47,10 @@ Here we demonstrated how we can use PSTs to identify SVs in the gene of interes.
 - Assessing the Presence of SVs on the _IGFN1_ Gene
 - Assesing the length of VNTRs
   - We are looking for a VNTR at chr1:106430959-106431446
-  - Grab PSTs around this VNTR using the following command: tabix chr1.pst.hprc.bed.gz chr1:106430909-106431496 >vntr.out
+  - Grab PSTs around this VNTR using the following command: 
+  ```
+  tabix chr1.pst.hprc.bed.gz chr1:106430909-106431496 >vntr.out
+  ```
   - 
 
 
