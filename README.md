@@ -42,9 +42,14 @@ An interval (10052 bp) from 844891 to 854943 on chr1 on GRCh38 has the same leng
 - Pan-conserved sequences and their CHM13 coordinates: pan-conserved_seq.chm13.zip
 - ll measured interval lengths between the selected pan-conserved sequences pairs: interval_length_matrix.zip
 
-# Assessing the Presence of SVs on the _IGFN1_ Gene
+# Examples of how PSTs identify SVs
 Here we demonstrated how we can use PSTs to identify SVs in the gene of interes.
-First, 
+- Assessing the Presence of SVs on the _IGFN1_ Gene
+- Assesing the length of VNTRs
+  - We are looking for a VNTR at chr1:106430959-106431446
+  - Grab PSTs around this VNTR using the following command: tabix chr1.pst.hprc.bed.gz chr1:106430909-106431496 >vntr.out
+  - 
+
 
 # k-mer SV plots
 We identified 60,763 polymorphic invervals and use the constituent 31-mers of SVs to visualize the structure of different classes of SVs including insertions, deletions, duplications, inversion and more complex rearrangements. This process involved using a simple dot matrix plot with the two axis representing the GRCh38 and the specific haploid assembly. We plotted the position of the 31-mers that spanned the divergent interval.
