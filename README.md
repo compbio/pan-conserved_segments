@@ -49,13 +49,13 @@ Here we demonstrated how we can use PSTs to identify SVs in the gene of interes.
  - The coordinates of IGFN1 exon 12; chr1:201206083-201213621 (according to MANE annotation; https://www.ncbi.nlm.nih.gov/refseq/MANE/)
  - Find PSTs close to exon boundary
     * Start of exon:
- ```
- tabix chr1.pst.hprc.bed.gz chr1:201206080-201206083 >start_pst.out
- ```
+    ```
+    tabix chr1.pst.hprc.bed.gz chr1:201206080-201206083 >start_pst.out
+    ```
     * End of exon:
-  ```
- tabix chr1.pst.hprc.bed.gz chr1:201213621-201213625 >end_pst.out
- ```
+    ```
+    tabix chr1.pst.hprc.bed.gz chr1:201213621-201213625 >end_pst.out
+    ```
 ## Assesing the length of VNTRs
   - We are looking for a VNTR at chr1:106430959-106431446
   - Grab PSTs around this VNTR using the following command: 
