@@ -46,16 +46,16 @@ An interval (10052 bp) from 844891 to 854943 on chr1 on GRCh38 has the same leng
 # Examples of how PSTs identify SVs
 Here we demonstrated how we can use PSTs to identify SVs in the gene of interes.
 ## Assessing the Presence of SVs on the _IGFN1_ Gene
- - The coordinates of IGFN1 exon 12; chr1:201206083-201213621 (according to MANE annotation; https://www.ncbi.nlm.nih.gov/refseq/MANE/)
- - Find PSTs close to exon boundary
-    * Start of exon:
-    ```
-    tabix chr1.pst.hprc.bed.gz chr1:201206080-201206083 >start_pst.out
-    ```
+   - The coordinates of IGFN1 exon 12; chr1:201206083-201213621 (according to MANE annotation; https://www.ncbi.nlm.nih.gov/refseq/MANE/)
+   - Find PSTs close to exon boundary
+     * Start of exon:
+       ```
+       tabix chr1.pst.hprc.bed.gz chr1:201206080-201206083 >start_pst.out
+       ```
     * End of exon:
-    ```
-    tabix chr1.pst.hprc.bed.gz chr1:201213621-201213625 >end_pst.out
-    ```
+      ```
+      tabix chr1.pst.hprc.bed.gz chr1:201213621-201213625 >end_pst.out
+      ```
 ## Assesing the length of VNTRs
   - We are looking for a VNTR at chr1:106430959-106431446
   - Grab PSTs around this VNTR using the following command: 
