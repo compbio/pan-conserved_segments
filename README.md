@@ -14,12 +14,12 @@ Pan-conserved tag segments provided an informative set of universally conserved 
 All pan-conserved 31-mers can be downloaded in bed format, pst-31mer.grch38.bed.gz along with tbi index file, from https://dna-discovery.stanford.edu/publicmaterial/datasets/pangenome
 <br/>
 <br/>
-Here is the list of available files:
-- polymorphic_intervals.50.grch38.bed: Each row represents an interval and 13 columns in this file (see the below image)
+## Here is the list of available files:
+### polymorphic_intervals.50.grch38.bed: Each row represents an interval and 13 columns in this file (see the below image)
 ![image](https://user-images.githubusercontent.com/1683615/228391002-b8f1ae98-c425-43a5-a5f1-ebc39daf2e1b.png)
 An interval (10052 bp) from 844891 to 854943 on chr1 on GRCh38 has the same lenght on 91 HPRC haploid assemblies. However, 3 of HPRC haploid assemblies have different interval lenghts; HG02080.paternal (345 bp shorter), HG02630.maternal (292 bp longer), HG03516.paternal (50 bp shoter) according to 12th and 13th column. 
 
-- long_psts.2500.bed
+### long_psts.2500.bed
   * long psts with size of >2,500 bp. 4th column shows the length of psts.
 - long conserved intervals
   * the interval lengths are constant across all 94 HPRC assemblies and longer than 10 Kb
@@ -36,22 +36,22 @@ An interval (10052 bp) from 844891 to 854943 on chr1 on GRCh38 has the same leng
        * 3rd col: end pos on GRCh38 (1-based)
        * 4th col: position on HG002.maternal (i.e. JAHKSD010000079.1:2844465-2844496,+ -> contig ID:start-end,strand)
        * 5th col - 97th col: the order of HPRC assemblies is in README at https://dna-discovery.stanford.edu/publicmaterial/datasets/pangenome/
-- Pan-conserved 31-mers and their GRCh38 coordinates:
+### Pan-conserved 31-mers and their GRCh38 coordinates:
   * pst-31mer.grch38.bed.gz
   * pst-31mer.grch38.bed.gz.tbi
-- Pan-conserved sequences and their CHM13 coordinates: pan-conserved_seq.chm13.zip
-- ll measured interval lengths between the selected pan-conserved sequences pairs: interval_length_matrix.zip
+### Pan-conserved sequences and their CHM13 coordinates: pan-conserved_seq.chm13.zip
+### measured interval lengths between the selected pan-conserved sequences pairs: interval_length_matrix.zip
 
 # Examples of how PSTs identify SVs
 Here we demonstrated how we can use PSTs to identify SVs in the gene of interes.
 ## Assessing the Presence of SVs on the _IGFN1_ Gene
  - The coordinates of IGFN1 exon 12; chr1:201206083-201213621 (according to MANE annotation; https://www.ncbi.nlm.nih.gov/refseq/MANE/)
  - Find PSTs close to exon boundary
-   * Start of exon:
+    * Start of exon:
  ```
  tabix chr1.pst.hprc.bed.gz chr1:201206080-201206083 >start_pst.out
  ```
-   * End of exon:
+    * End of exon:
   ```
  tabix chr1.pst.hprc.bed.gz chr1:201213621-201213625 >end_pst.out
  ```
