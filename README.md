@@ -66,6 +66,8 @@ Here we demonstrated how we can use PSTs to identify SVs in the gene of interes.
      enter size of search window: 2000
      ```
    - outcomes in IGFN1_exon_interval-len-diff.txt
+     * As you see in IGFN1_exon_interval-len-diff.txt, the lengths between PSTs for all exons except exon12 are identical to GRCh38.
+     * Interestingly, we've observed that 92 out of 94 assemblies have different lengths for exon12. For example, HG002.maternal has exon12 that are 108 bp longer, while HG002.paternal has exon12 that are 216 bp longer, when compared to GRCh38.
 ## Assesing the length of VNTRs
   - We are looking for a VNTR at chr1:106430959-106431446
   - Grab PSTs around this VNTR using the following command: 
