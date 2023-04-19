@@ -53,13 +53,19 @@ Here we demonstrated how we can use PSTs to identify SVs in the gene of interes.
 ## Assessing the Presence of SVs on the exons in a gene: _IGFN1_
    - The coordinates of IGFN1 exons; IGFN1_exon.bed under the folder of SVs_exons (according to MANE annotation; https://www.ncbi.nlm.nih.gov/refseq/MANE/)
    - Generate a shell script to run tabix to grab PSTs around regions of interest
-       ```
+     ```
        python3 cal_pst_interval_len.py
        enter name of your input: IGFN1_exon.bed
        enter search window size (recommended: 2000): 2000
        enter the directory where tabix files are: ../../pst_matrix/pst_pos_hprc_by_chr/ (adjust to your path)
-       ```
-
+     ```
+   - Calcualte the distances between selected PSTs
+     ```
+     python3 cal_pst_interval_len.py
+     enter output file name: IGFN1_exon_interval-len-diff.txt 
+     enter size of search window: 2000
+     ```
+   - outcomes in IGFN1_exon_interval-len-diff.txt
 ## Assesing the length of VNTRs
   - We are looking for a VNTR at chr1:106430959-106431446
   - Grab PSTs around this VNTR using the following command: 
