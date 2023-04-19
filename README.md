@@ -50,7 +50,7 @@ HG002.maternal	HG002.paternal	HG00438.maternal	HG00438.paternal	HG005.maternal	H
 
 # Examples of how PSTs identify SVs
 Here we demonstrated how we can use PSTs to identify SVs in the gene of interes.
-## Assessing the Presence of SVs on the _IGFN1_ Gene
+## Assessing the Presence of SVs on the exons in a gene: _IGFN1_
    - The coordinates of IGFN1 exon 12; chr1:201206083-201213621 (according to MANE annotation; https://www.ncbi.nlm.nih.gov/refseq/MANE/)
    - Find PSTs close to exon boundary
      * Start of exon:
