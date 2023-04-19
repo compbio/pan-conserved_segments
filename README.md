@@ -51,16 +51,15 @@ HG002.maternal	HG002.paternal	HG00438.maternal	HG00438.paternal	HG005.maternal	H
 # Examples of how PSTs identify SVs
 Here we demonstrated how we can use PSTs to identify SVs in the gene of interes.
 ## Assessing the Presence of SVs on the exons in a gene: _IGFN1_
-   - The coordinates of IGFN1 exon 12; chr1:201206083-201213621 (according to MANE annotation; https://www.ncbi.nlm.nih.gov/refseq/MANE/)
-   - Find PSTs close to exon boundary
-     * Start of exon:
+   - The coordinates of IGFN1 exons; IGFN1_exon.bed under the folder of SVs_exons (according to MANE annotation; https://www.ncbi.nlm.nih.gov/refseq/MANE/)
+   - Generate a shell script to run tabix to grab PSTs around regions of interest
        ```
-       tabix chr1.pst.hprc.bed.gz chr1:201206080-201206083 >start_pst.out
+       python3 cal_pst_interval_len.py
+       enter name of your input: IGFN1_exon.bed
+       enter search window size (recommended: 2000): 2000
+       enter the directory where tabix files are: ../../pst_matrix/pst_pos_hprc_by_chr/ (adjust to your path)
        ```
-     * End of exon:
-       ```
-       tabix chr1.pst.hprc.bed.gz chr1:201213621-201213625 >end_pst.out
-       ```
+
 ## Assesing the length of VNTRs
   - We are looking for a VNTR at chr1:106430959-106431446
   - Grab PSTs around this VNTR using the following command: 
