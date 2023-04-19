@@ -41,7 +41,8 @@ long psts with size of >2,500 bp. 4th column shows the length of psts.
 * pst-31mer.grch38.bed.gz
 * pst-31mer.grch38.bed.gz.tbi
 ### 4. Pan-conserved sequences and their CHM13 coordinates
-pan-conserved_seq.chm13.zip
+* pan-conserved_seq.chm13.zip
+* pst-31mer.chm13.bed.gz.tbi
 ### 5. All measured interval lengths between the selected pan-conserved sequences pairs
 interval_length_matrix.zip
 
