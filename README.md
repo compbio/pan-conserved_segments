@@ -70,11 +70,11 @@ Here we demonstrated how we can use PSTs to identify SVs in the gene of interes.
      * Interestingly, we've observed that 92 out of 94 assemblies have different lengths for exon12. For example, HG002.maternal has exon12 that are 108 bp longer, while HG002.paternal has exon12 that are 216 bp longer, when compared to GRCh38.
 ## Assesing the length of VNTRs
   - We are looking for a VNTR at chr1:106430959-106431446
-  - Grab PSTs around this VNTR using the following command: 
-```
-tabix chr1.pst.hprc.bed.gz chr1:106430909-106431496 >vntr.out
-```
-  - 
+  - Grab PSTs around this VNTR (50 bp flanking regions) using the following command: 
+    ```
+    tabix chr1.pst.hprc.bed.gz chr1:106430909-106431496 >vntr.out
+    ```
+  - Specifically, the first and last (or 4th) lines of vntr.out (under example_outcomes) provide the lengths of PSTs covering this VNTR across 94 HPRC assemblies. 
 
 
 # k-mer SV plots
