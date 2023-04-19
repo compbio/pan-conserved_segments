@@ -75,7 +75,7 @@ Here we demonstrated how we can use PSTs to identify SVs in the gene of interes.
     tabix chr1.pst.hprc.bed.gz chr1:106430909-106431496 >vntr.out
     ```
   - Specifically, the first and last (or 4th) lines of **vntr.out** (under example_outcomes) provide the lengths of PSTs covering this VNTR across 94 HPRC assemblies.
-    * As an example, the length of this region is 568 bp on GRCh38. However, on both HG002.maternal and HG002.paternal, it is 798 bp, which is 230 bp longer than on GRCh38.
+    * As an example, the length of this region is 568 bp on GRCh38. However, on both HG002.maternal and HG002.paternal, it is 798 bp, which is 230 bp longer than on GRCh38. The assembly IDs for columns 4 to 97 can be found in "6. Order of assemblies in the matrix files" (see above)
 
 # k-mer SV plots
 We identified 60,763 polymorphic invervals and use the constituent 31-mers of SVs to visualize the structure of different classes of SVs including insertions, deletions, duplications, inversion and more complex rearrangements. This process involved using a simple dot matrix plot with the two axis representing the GRCh38 and the specific haploid assembly. We plotted the position of the 31-mers that spanned the divergent interval.
